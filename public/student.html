@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- {% extends 'base.html' %} -->
+    <!-- {% block content %}     -->
+    <h1>Add Student</h1>
+    <div>        
+        <a href="/">Back</a>
+    </div>    
+    <form id="insertForm" method = "POST" action="/insert">
+        <h3>Student Information</h3>
+        Name<br>
+        <input type = "text" id="fullname" name = "fullname" /></br>
+        
+        Address<br>
+        <textarea name = "address" ></textarea><br>
+        
+        City<br>
+        <input type = "text" name = "city" /><br>
+        
+        Pincode<br>
+        <input type = "text" name = "pin" /><br>
+        <input type = "submit" value = "submit" /><br>
+    </form>    
+
+
+</body>
+</html>
